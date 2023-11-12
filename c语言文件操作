@@ -1,3 +1,12 @@
+fopen
+fgets
+fread
+fwrite
+fprint
+fclose
+
+
+
 fgets 和 fread 都是在C语言中用于从文件中读取数据的函数，但它们有一些关键的区别和一些相同点。
 
 相同点：
