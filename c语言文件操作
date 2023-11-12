@@ -1,9 +1,13 @@
 fopen
+fclose
+
 fgets
 fread
+
 fwrite
+fputs
 fprintf
-fclose
+
 
 
 
