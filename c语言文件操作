@@ -2,7 +2,7 @@ fopen
 fgets
 fread
 fwrite
-fprint
+fprintf
 fclose
 
 
