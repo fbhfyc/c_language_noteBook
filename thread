@@ -1,1 +1,8 @@
 
+线程锁的种类
+1） 互斥锁 mutex
+
+线程锁的api
+1）lock unlock
+2) lock_guard
+3) unique_lock
