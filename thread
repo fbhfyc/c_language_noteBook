@@ -6,3 +6,6 @@
 1）lock unlock
 2) lock_guard
 3) unique_lock
+      unique_lock<std::mutex> l(myMutex_,try_to_lock)
+      unique_lock<std::mutex> l(myMutex_,try_to_lock)
+      unique_lock<std::mutex> l(myMutex_,try_to_lock)
