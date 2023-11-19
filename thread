@@ -10,5 +10,5 @@
       unique_lock<std::mutex> l(myMutex_,std::defer_lock)
                      1)可以随时使用lock unlock
                      2)release 还有返回他所管理的锁，进行解锁
-                     3)转移所有权
+                     3)转移所有权，要用std::move
       unique_lock<std::mutex> l(myMutex_,try_to_lock)
