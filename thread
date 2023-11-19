@@ -15,5 +15,8 @@
 
 条件唤醒
    1)wait
+        有第二个参数
+         没有第二个参数
+             就是有第二个参数为false一样，wait阻塞并且释放锁
    2)notify
    3)notify_all
