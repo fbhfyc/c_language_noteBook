@@ -9,4 +9,5 @@
       unique_lock<std::mutex> l(myMutex_,try_to_lock)
       unique_lock<std::mutex> l(myMutex_,std::defer_lock)
                      1)可以随时使用lock unlock
+                     2)release
       unique_lock<std::mutex> l(myMutex_,try_to_lock)
