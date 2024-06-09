@@ -1,14 +1,27 @@
+文件打开与关闭
 fopen
 fclose
 
-fgets
+文件读和写
+
+
 fread
-
 fwrite
-fputs
-fprintf
 
-文件指针：
+fprintf
+fscanf
+
+fgets
+fputs
+
+fgetc
+fputc
+
+文件指针：指向文件的指针
+文件位置指针：用来遍历数据
+
+EOF : 文件结束标志
+
 ftell
 rewind
 fseek
