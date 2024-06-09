@@ -9,8 +9,8 @@ fwrite
     - wb 二进制写
     - rb 二进制读
 
-fprintf
-fscanf
+fprintf  //输出到stdout或者文件指针
+fscanf   //从stdin或文件指针读取
 
 fgets
 fputs
@@ -26,8 +26,8 @@ read
 文件位置指针：用来遍历数据
 
 EOF : 文件结束标志
-
-ftell
+ 
+ftell  //得到当前位置指针的位置，用相对于文件开头的位移量来表示
 rewind  //获取文件位置指针的当前位置
 fseek(FILE* fp, long Offset, Origin)
        // fp:       文件指针
