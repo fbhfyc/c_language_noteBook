@@ -12,6 +12,13 @@ fwrite
 fprintf  //输出到stdout或者文件指针
 fscanf   //从stdin或文件指针读取
 
+绑定buf
+setbuf
+       //  char* in[BUFSIZ] = {0};
+           setbuf(stdin,in);
+           fscanf(stdin,"%d",222);
+           puts(in);
+
 fgets
 fputs
 
