@@ -3,7 +3,6 @@
 
 void main(int argc,char* argv[])
 {
-	char total[10240]={0};
 
 	if (argc != 3) {
 		printf("useg err");
@@ -25,10 +24,9 @@ void main(int argc,char* argv[])
 	}
 
 	while (fgets(buff,1024,fsrc) != NULL) {
-		strcat(total,buff);
+	        fputs(buff,fdest);
 	}
 
-	fputs(total,fdest);
 
 	fclose(fsrc);
         fclose(fdest);
