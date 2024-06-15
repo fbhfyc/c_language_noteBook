@@ -19,7 +19,7 @@ setbuf
            fscanf(stdin,"%d",222);
            puts(in);
 
-fgets
+fgets(buffer,size,filepointer)
 fputs
 
 fgetc
