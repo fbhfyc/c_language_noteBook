@@ -83,3 +83,30 @@ c
 
 总体而言，选择使用 fgets 还是 fread 取决于你的需求。如果你处理文本文件，并且想要按行读取数据，那么 fgets 是更合适的选择。
 如果你需要以字节数为单位读取数据，或者处理二进制文件，那么 fread 是更合适的选择。
+
+    1. 输出
+        1.1 输出格式化字符串
+            1.1.1 printf
+            1.1.2 fprintf
+            1.1.3 sprintf
+            1.1.4 snprintf
+            1.1.5 dprintf
+            1.1.6 v版本输出格式化字符串
+        1.2 输出字符&字符串
+            1.2.1 putchar
+            1.2.2 putc, fputc
+            1.2.3 fputc
+            1.2.4 puts, fputs
+        1.3 write
+    2. 输入
+        2.1 输入格式化字符串
+            2.1.1 scanf, fscanf, sscanf
+            2.1.2 vscanf, vfscanf, vsscanf
+        2.2 输入一行字符串
+            2.2.1 gets
+            2.2.2 fgets
+            2.2.3 getchar, getc, fgetc
+            2.2.4 ungetc
+        2.3 getline, getdelim
+        2.4 read
+        2.5 fread
